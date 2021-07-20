@@ -1,0 +1,15 @@
+Instructions to run the file.
+
+1. Write the username and password (same as the one through which you are logging in mysql) in the third line of main.py file.
+
+2. Login to mysql using:
+	mysql -u <username> -p <password>
+
+3. Create the database CAFE in your system using command:
+	source <path of CAFE.sql file>
+
+4. Run the following command to use CAFE database:
+	use CAFE;
+
+5. On the terminal, run the python script as:
+	python main.py
